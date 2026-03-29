@@ -306,7 +306,7 @@ def generate_raw_data_table(df):
         border=ft.border.all(1, ft.Colors.OUTLINE_VARIANT),
         border_radius=8,
         clip_behavior=ft.ClipBehavior.HARD_EDGE,
-        height=5500,  # ✅ точная высота для 170 строк + запас: 40 + 170*32 + 20 = 5500
+        height=5500,  # точная высота для 170 строк + запас: 40 + 170*32 + 20 = 5500
     )
 
     return ft.Column([
